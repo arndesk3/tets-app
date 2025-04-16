@@ -1,0 +1,9 @@
+[env]
+
+[services]
+  internal_port = 3000
+  protocol = "tcp"
+
+  [[services.ports]]
+    port = 80
+    handlers = ["http"]
